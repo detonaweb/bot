@@ -4,7 +4,7 @@
   "description": "Um bot de WhatsApp para atendimento e notificacoes",
   "main": "chatbot.js",
   "scripts": {
-    "start": "node chatbot.js"  <-- ADICIONE OU VERIFIQUE ESTA LINHA
+    "start": "node chatbot.js"
   },
   "keywords": [
     "whatsapp",
