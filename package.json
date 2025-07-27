@@ -1,10 +1,24 @@
 {
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Um bot de WhatsApp para atendimento e notificacoes",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "node chatbot.js"  <-- ADICIONE OU VERIFIQUE ESTA LINHA
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "node.js"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.11.0",
-    "fs-extra": "^11.3.0",
-    "moment-timezone": "^0.5.45",
-    "node-cron": "^4.2.1",
+    "whatsapp-web.js": "^1.23.0",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": ""
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "fs-extra": "^11.3.0",
+    "moment-timezone": "^0.5.45"
   }
 }
